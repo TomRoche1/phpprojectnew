@@ -55,7 +55,7 @@ and open the template in the editor.
             <center><form method="get" action="ConsultingServicesHome.html"><button type="submit" class="button button">Consulting Services</button></form></center>
             <br />
             <br />
-            <a href="http://www.yahoo.com">Heroku</a>
+            <a href="https://phpprojectnew123.herokuapp.com/">Heroku</a>
             
         </center>
 </html>
