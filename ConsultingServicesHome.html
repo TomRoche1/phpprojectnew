@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Roche's Consultancy</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+
+            body {
+              margin: 0;
+            }
+            
+            b {
+              font-size: 20px
+            }
+
+            /* Style the header */
+            .header {
+              background-color: #e0ae51;
+              padding: 20px;
+              text-align: center;
+            }
+
+            /* Style the top navigation bar */
+            .topnav {
+              overflow: hidden;
+              background-color: black;
+            }
+
+            /* Style the topnav links */
+            .topnav a {
+              float: left;
+              display: block;
+              color: #f2f2f2;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+
+            /* Change color on hover */
+            .topnav a:hover {
+              background-color: white;
+              color: black;
+            }
+
+            /* Create three unequal columns that floats next to each other */
+            .column {
+              float: left;
+              padding: 10px;
+            }
+
+            /* Left and right column */
+            .column.side {
+              width: 25%;
+            }
+
+            /* Middle column */
+            .column.middle {
+              width: 50%;
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+
+            /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 600px) {
+              .column.side, .column.middle {
+                width: 100%;
+              }
+            }
+
+            /* Designing all aspects of the dropdown*/
+            .dropdown {
+              float: left;
+              overflow: hidden;
+            }
+
+            .dropdown .dropbtn {
+              font-size: 16px;  
+              border: none;
+              outline: none;
+              color: white;
+              padding: 14px 16px;
+              background-color: inherit;
+              font-family: inherit;
+              margin: 0;
+            }
+
+            .navbar a:hover, .dropdown:hover .dropbtn {
+              background-color: white;
+              color: black;
+            }
+
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #f9f9f9;
+              min-width: 160px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+
+            .dropdown-content a {
+              float: none;
+              color: black;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+              text-align: left;
+            }
+
+            .dropdown-content a:hover {
+              background-color: #ddd;
+            }
+
+            .dropdown:hover .dropdown-content {
+              display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Roche's Consultancy</h1>
+
+            <p>Providing professional financial advice for generations.</p>
+        </div>
+
+        <div class="topnav">
+            <a href="eBus1.php">Purchase our Product</a>
+            <div class="dropdown">
+                <button class="dropbtn">View our Services
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="Blockchain.html">Blockchain</a>
+                  <a href="AutonomousThings.html">Autonomous Things (Robots)</a>
+                  <a href="ImmersiveExperience.html">Immersive Experience</a>
+                </div>
+              </div>
+            <a href="ConsultingServicesHome.html">About Us</a>
+            <a href="index.php">Return to Index</a>
+        </div>
+
+        <div class="row">
+            <div class="column side">
+
+                <p><img src="Roche's Consultancy.PNG" width="300" height="270" alt="" align="Left"></p>
+            </div>
+        <br />
+            <div class="column middle">
+                <h2 style="font-size:30px; text-align: center">About Us</h2>
+                <p>Roche's Consultancy is one of the world's leading management consulting firms. We work with our customers to help them make better decisions, convert those decisions to actions and deliver the sustainable success they desire. As management consultants, we want to create impact for our clients. We offer brilliant analytic and strategic knowhow that you can count on, as well as topical industry insights and relevant networks. The biggest promise we make our clients, however, is to perform as creative individuals coming from a variety of backgrounds.</p>
+                <p>We focus on people and values to help our clients achieve sustainable business success. We have always strived to a different perspective in the field of consulting and business, and today we continue to constructively challenge standard patterns of thought and provide clients with new solutions to manage disruption and transformation.</p>
+                <p>For more information on our business, check out the services we have on offer.</p>
+            </div>
+            
+            <div class="column side">
+                <p><img src="Roche's Consultancy.PNG" width="300" height="270" alt="" align="Right"></p>
+            </div>
+            
+        </div>
+    </body>
+</html>

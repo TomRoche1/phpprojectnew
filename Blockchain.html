@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Roche's Consultancy</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+
+            body {
+              margin: 0;
+            }
+            
+            b {
+              font-size: 20px
+            }
+
+            .header {
+              background-color: #e0ae51;
+              padding: 20px;
+              text-align: center;
+            }
+
+            /* Style the top navigation bar */
+            .topnav {
+              overflow: hidden;
+              background-color: black;
+            }
+
+            /* Style the topnav links */
+            .topnav a {
+              float: left;
+              display: block;
+              color: #f2f2f2;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+
+            /* Change color on hover */
+            .topnav a:hover {
+              background-color: white;
+              color: black;
+            }
+
+            /* Create three unequal columns that floats next to each other */
+            .column {
+              float: left;
+              padding: 10px;
+            }
+
+            /* Left and right column */
+            .column.side {
+              width: 25%;
+            }
+
+            /* Middle column */
+            .column.middle {
+              width: 50%;
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+
+            /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 600px) {
+              .column.side, .column.middle {
+                width: 100%;
+              }
+            }
+
+            /* Designing all aspects of the dropdown */
+            .dropdown {
+              float: left;
+              overflow: hidden;
+            }
+
+            .dropdown .dropbtn {
+              font-size: 16px;  
+              border: none;
+              outline: none;
+              color: white;
+              padding: 14px 16px;
+              background-color: inherit;
+              font-family: inherit;
+              margin: 0;
+            }
+
+            .navbar a:hover, .dropdown:hover .dropbtn {
+              background-color: white;
+              color: black;
+            }
+
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #f9f9f9;
+              min-width: 160px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+
+            .dropdown-content a {
+              float: none;
+              color: black;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+              text-align: left;
+            }
+
+            .dropdown-content a:hover {
+              background-color: #ddd;
+            }
+
+            .dropdown:hover .dropdown-content {
+              display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Roche's Consultancy</h1>
+
+            <p>Providing professional financial advice for generations.</p>
+        </div>
+
+        <div class="topnav">
+            <a href="eBus1.php">Purchase our Product</a>
+            <div class="dropdown">
+                <button class="dropbtn">View our Services
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="Blockchain.html">Blockchain</a>
+                  <a href="AutonomousThings.html">Autonomous Things (Robots)</a>
+                  <a href="ImmersiveExperience.html">Immersive Experience</a>
+                </div>
+              </div>
+            <a href="ConsultingServicesHome.html">About Us</a>
+            <a href="index.php">Return to Index</a>
+        </div>
+
+        <div class="row">
+            <div class="column side">
+
+                <p><img src="Roche's Consultancy.PNG" width="300" height="270" alt="" align="Left"></p>
+            </div>
+        <br />
+            <div class="column middle">
+                <h2 style="font-size:30px; text-align: center">Blockchain</h2>
+                <p>A blockchain is, in the simplest of terms, a time-stamped series of immutable record of data that is managed by cluster of computers not owned by any single entity. Each of these blocks of data (i.e. block) are secured and bound to each other using cryptographic principles (i.e. chain).</p>
+                <p>The blockchain is a simple yet ingenious way of passing information from A to B in a fully automated and safe manner. One party to a transaction initiates the process by creating a block. This block is verified by thousands, perhaps millions of computers distributed around the net. The verified block is added to a chain, which is stored across the net, creating not just a unique record, but a unique record with a unique history. Falsifying a single record would mean falsifying the entire chain in millions of instances. That is virtually impossible.</p>
+                <center><img src="https://1c7qp243xy9g1qeffp1k1nvo-wpengine.netdna-ssl.com/wp-content/uploads/2018/02/bitcoin-3132574_1920.jpg" alt="Bitcoin" style="width:550px;height:360px;"></center>
+                <p><b>How does Blockchain work?</b></p>
+                <p>A blockchain system consists of two types of record, transactions and blocks. Transactions are simply the actions carried out in a particular period, these are stored together in a block.
+                <p>What makes blockchain more unique is that each block contains the cryptographic hash of the previous one, thus forming a chain. What a cryptographic hash does is take the data from the previous block and transform it into a compact string. Since these strings are impossible to predict it means that any tampering with the chain is easily detected.</p>
+                <p>This method means that blocks don’t need to have serial numbers, the hash allows them to be uniquely identified as well as verifying their integrity. Each block confirms the validity of the previous one right back to the so called ‘genesis block’ at the start of the chain.</p>
+                <p>The linking of blocks isn’t the only thing that keeps the chain secure, however. It’s also decentralised, each computer with the software installed has a copy of the blockchain which is constantly updated with new blocks. There is no centralised server holding the transactions and because each new block must meet the requirements of the chain nobody is able to overwrite previous transactions.</p>
+                <center><img src="https://magazine.seats2meet.com/wp-content/uploads/2017/09/Blockchain.jpg" alt="Blockchain" style="width:600px;height:360px;"></center>
+                <p>For more detailed information on blockchain, click <a href="https://www.investopedia.com/terms/b/blockchain.asp">here</a>.</p>
+            </div>
+            
+            <div class="column side">
+                <p><img src="Roche's Consultancy.PNG" width="300" height="270" alt="" align="Right"></p>
+            </div>
+            
+        </div>
+    </body>
+</html>

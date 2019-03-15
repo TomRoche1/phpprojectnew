@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Roche's Consultancy</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+
+            body {
+              margin: 0;
+            }
+            
+            b {
+              font-size: 20px
+            }
+
+            /* Style the header */
+            .header {
+              background-color: #e0ae51;
+              padding: 20px;
+              text-align: center;
+            }
+
+            /* Style the top navigation bar */
+            .topnav {
+              overflow: hidden;
+              background-color: black;
+            }
+
+            /* Style the topnav links */
+            .topnav a {
+              float: left;
+              display: block;
+              color: #f2f2f2;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+
+            /* Change color on hover */
+            .topnav a:hover {
+              background-color: white;
+              color: black;
+            }
+
+            /* Create three unequal columns that floats next to each other */
+            .column {
+              float: left;
+              padding: 10px;
+            }
+
+            /* Left and right column */
+            .column.side {
+              width: 25%;
+            }
+
+            /* Middle column */
+            .column.middle {
+              width: 50%;
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+
+            /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 600px) {
+              .column.side, .column.middle {
+                width: 100%;
+              }
+            }
+            
+            /* Designing all aspects of the dropdown */
+            .dropdown {
+              float: left;
+              overflow: hidden;
+            }
+
+            .dropdown .dropbtn {
+              font-size: 16px;  
+              border: none;
+              outline: none;
+              color: white;
+              padding: 14px 16px;
+              background-color: inherit;
+              font-family: inherit;
+              margin: 0;
+            }
+
+            .navbar a:hover, .dropdown:hover .dropbtn {
+              background-color: white;
+              color: black;
+            }
+
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #f9f9f9;
+              min-width: 160px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+
+            .dropdown-content a {
+              float: none;
+              color: black;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+              text-align: left;
+            }
+
+            .dropdown-content a:hover {
+              background-color: #ddd;
+            }
+
+            .dropdown:hover .dropdown-content {
+              display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Roche's Consultancy</h1>
+
+            <p>Providing professional financial advice for generations.</p>
+        </div>
+
+        <div class="topnav">
+            <a href="eBus1.php">Purchase our Product</a>
+            <div class="dropdown">
+                <button class="dropbtn">View our Services
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="Blockchain.html">Blockchain</a>
+                  <a href="AutonomousThings.html">Autonomous Things (Robots)</a>
+                  <a href="ImmersiveExperience.html">Immersive Experience</a>
+                </div>
+              </div>
+            <a href="ConsultingServicesHome.html">About Us</a>
+            <a href="index.php">Return to Index</a>
+        </div>
+
+        <div class="row">
+            <div class="column side">
+
+                <p><img src="Roche's Consultancy.PNG" width="300" height="270" alt="" align="Left"></p>
+            </div>
+        <br />
+            <div class="column middle">
+                <h2 style="font-size:30px; text-align: center">Autonomous Things (Robots)</h2>
+                <p>This is the technological developments that are expected to bring computers into the physical environment as autonomous entities without human direction, freely moving and interacting with humans and other objects.</p>
+                <p>The emergence of autonomous things marks a key landmark in technological progress. Early examples include autonomous drones and self-driving vehicles. Expect to see more autonomous things as these kinds of technologies develop further.</p>
+                <p>Autonomous things are fundamentally important because they represent the first real untethering of machines from explicit human guidance. Humans are used to programming things, but are not used to them acting in autonomous ways. Self-driving vehicles are still making their way onto the roads. While widespread adoption of autonomous things has yet to occur, there are indications that it is coming soon.</p>
+                <p><b>Why are robotics important?</b></p>
+                <p>Robotics technology influences every aspect of work and home. Robotics has the potential to positively transform lives and work practices, raise efficiency and safety levels and provide enhanced levels of service. Even more, robotics is set to become the driving technology underpinning a whole new generation of autonomous devices and cognitive artefacts that, through their learning capabilities, interact seamlessly with the world around them, and hence, provide the missing link between the digital and physical world.</p>
+                <p>Robotics is already the key driver of competitiveness and flexibility in large scale manufacturing industries. Without robotics many of Europe’s successful manufacturing industries would not be able to compete from their current European bases of operation. In these industries robotics already underpins employment. Increasingly robotics is becoming more relevant for smaller manufacturing industries which are central to Europe’s manufacturing and employment capacity.</p>
+                <center><img src="https://wonderfulengineering.com/wp-content/uploads/2013/12/drone.jpg" alt="Drone" style="width:335px;height:220px;"> <img src="http://cdn.syndicate.theibisnetwork.com/wp-content/uploads/sites/2/Self-Driving-Car1.jpg" alt="Self-Driving Car" style="width:335px;height:220px;"></center>
+                <p>For more detailed information on autonomous things, click <a href="https://insights.thirdrepublic.com/autonomous-things-what-they-why-matter-today/">here</a>.</p>
+            </div>
+            
+            <div class="column side">
+                <p><img src="Roche's Consultancy.PNG" width="300" height="270" alt="" align="Right"></p>
+            </div>
+            
+        </div>
+    </body>
+</html>
